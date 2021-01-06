@@ -49,7 +49,7 @@ const data = {
             _id:'5',
             name:'laptop',
             category:'elecronic devices',
-            images:'/images/p1.jpg',
+            images:'/images/table.jpg',
             price:55000,
             brand:'hp',
             rating:4.5,
