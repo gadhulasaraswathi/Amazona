@@ -10,7 +10,7 @@ function App() {
             </div>
             <div>
                 <a href="/cart">cart</a>
-                <a href="/                              signin"> sign in</a>
+                <a href="/signin"> sign in</a>
             </div>
 
         </header >
@@ -19,7 +19,7 @@ function App() {
                 {data.products.map((products) =>(
                 <div key={products._id} className="card">
                  <a href={`/products/${products._id}`}>
-                     <img  className="medium" src={products.image} alt={products.name}/>
+                     <img  className="medium" src={products.images} alt={products.images}/>
                  </a>
                  <a href={`/products/${products._id}`}>
                    <a href="product.html">
@@ -37,13 +37,12 @@ function App() {
                        
                    </div>
                       <div className="price">${products.price}</div>
-                       </div>
+                       </a>
                        </div>
                        ))
                 }
                 
             </div>
-            </
         </main>
         <footer className="row center"> All right reserved </footer>
 

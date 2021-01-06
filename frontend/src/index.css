@@ -94,9 +94,12 @@ margin-bottom:0.5rem ;
   font-size: 2rem;
 }
 .rating span{
-  color:#f0c040;
   margin:0.1rem;
 }
 .rating span:last-child{
   columns: #404040;
+}
+.fa{
+  color:#f0c040;
+
 }
