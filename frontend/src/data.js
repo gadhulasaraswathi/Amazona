@@ -1,0 +1,61 @@
+const data = {
+    products: [
+       
+        {
+            _id:'1',
+            name:'laptop',
+            category:'elecronic devices',
+            images:'/images/p1.jpg',
+            price:55000,
+            brand:'hp',
+            rating:4.5,
+            numReview:10,
+            desription:'high quality product',
+        },
+        {
+            _id:'2',
+            name:'table',
+            category:'wood',
+            images:'/images/p1.jpg',
+            price:5000,
+            brand:'brand',
+            rating:4.5,
+            numReview:10,
+            desription:'high quality product',
+        },
+        {
+            _id:'3',
+            name:'phone',
+            category:'elecronic devices',
+            images:'/images/p1.jpg',
+            price:9999,
+            brand:'mi',
+            rating:4.5,
+            numReview:10,
+            desription:'high quality product',
+        },
+        {
+            _id:'4',
+            name:'laptop',
+            category:'elecronic devices',
+            images:'/images/p1.jpg',
+            price:55000,
+            brand:'hp',
+            rating:4.5,
+            numReview:10,
+            desription:'high quality product',
+        },
+        {
+            _id:'5',
+            name:'laptop',
+            category:'elecronic devices',
+            images:'/images/p1.jpg',
+            price:55000,
+            brand:'hp',
+            rating:4.5,
+            numReview:10,
+            desription:'high quality product',
+        },
+    ]
+}
+export default data
